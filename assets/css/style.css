@@ -1,0 +1,47 @@
+/* header{
+    background-color:  #273746;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+.titulo {
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Splash', cursive;
+    color: aliceblue;
+}
+
+.menuHover {
+    font-family: 'Lemonada', cursive;
+    font-weight: 400;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.menuHover:hover {
+    background-color: #f4511e;
+    opacity: 0.6
+}
+
+.contentHeaders {
+    color: #1b4f72;
+}
+
+.separate {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 486px) {
+    .dispositivo {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+}
